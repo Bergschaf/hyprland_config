@@ -1,0 +1,81 @@
+2023-12-03 14:09:14.272 [info] Extension host with pid 1880 started
+2023-12-03 14:09:14.272 [info] Skipping acquiring lock for /home/Bergschaf/.config/Code - OSS/User/workspaceStorage/c37be2b6d3a947e46d1d68ce4f71ead9.
+2023-12-03 14:09:14.307 [info] ExtensionService#_doActivateExtension leanprover.lean4, startup: false, activationEvent: 'onLanguage:lean'
+2023-12-03 14:09:14.468 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-12-03 14:09:14.781 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-12-03 14:09:14.897 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-12-03 14:09:15.011 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-12-03 14:09:15.168 [info] Eager extensions activated
+2023-12-03 14:09:15.275 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-12-03 14:09:15.279 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-12-03 14:09:15.310 [info] ExtensionService#_doActivateExtension bierner.color-info, startup: false, activationEvent: 'onStartupFinished'
+2023-12-03 14:09:15.322 [info] ExtensionService#_doActivateExtension YuTengjing.vscode-colorize-plus, startup: false, activationEvent: 'onStartupFinished'
+2023-12-03 14:09:15.981 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-12-03 14:13:07.108 [error] [leanprover.lean4] provider FAILED
+2023-12-03 14:13:07.108 [error] Error: (deterministic) timeout at 'whnf', maximum number of heartbeats (200000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433337
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433631
+	at Immediate.<anonymous> (/home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433993)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-12-03 14:14:35.511 [error] [leanprover.lean4] provider FAILED
+2023-12-03 14:14:35.511 [error] Error: (deterministic) timeout at 'whnf', maximum number of heartbeats (200000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433337
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433631
+	at Immediate.<anonymous> (/home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433993)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-12-03 14:16:24.275 [error] [leanprover.lean4] provider FAILED
+2023-12-03 14:16:24.275 [error] Error: (deterministic) timeout at 'whnf', maximum number of heartbeats (200000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433337
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433631
+	at Immediate.<anonymous> (/home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433993)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-12-03 14:16:27.429 [error] [leanprover.lean4] provider FAILED
+2023-12-03 14:16:27.429 [error] Error: (deterministic) timeout at 'whnf', maximum number of heartbeats (200000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433337
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433631
+	at Immediate.<anonymous> (/home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433993)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-12-03 14:16:30.866 [error] [leanprover.lean4] provider FAILED
+2023-12-03 14:16:30.866 [error] Error: (deterministic) timeout at 'whnf', maximum number of heartbeats (200000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433337
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433631
+	at Immediate.<anonymous> (/home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433993)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-12-03 14:22:42.026 [error] [leanprover.lean4] provider FAILED
+2023-12-03 14:22:42.026 [error] Error: (deterministic) timeout at 'whnf', maximum number of heartbeats (200000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433337
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433631
+	at Immediate.<anonymous> (/home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433993)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-12-03 14:30:59.853 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-12-03 14:31:00.021 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-12-03 14:35:31.484 [error] [leanprover.lean4] provider FAILED
+2023-12-03 14:35:31.485 [error] Error: (deterministic) timeout at 'whnf', maximum number of heartbeats (200000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433337
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433631
+	at Immediate.<anonymous> (/home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433993)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-12-03 14:35:33.195 [error] [leanprover.lean4] provider FAILED
+2023-12-03 14:35:33.195 [error] Error: (deterministic) timeout at 'whnf', maximum number of heartbeats (200000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433337
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433631
+	at Immediate.<anonymous> (/home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433993)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-12-03 14:35:35.279 [error] [leanprover.lean4] provider FAILED
+2023-12-03 14:35:35.279 [error] Error: (deterministic) timeout at 'whnf', maximum number of heartbeats (200000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433337
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433631
+	at Immediate.<anonymous> (/home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433993)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-12-03 14:35:35.967 [error] [leanprover.lean4] provider FAILED
+2023-12-03 14:35:35.967 [error] Error: (deterministic) timeout at 'whnf', maximum number of heartbeats (200000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433337
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433631
+	at Immediate.<anonymous> (/home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433993)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-12-03 14:56:14.210 [error] [leanprover.lean4] provider FAILED
+2023-12-03 14:56:14.210 [error] Error: (deterministic) timeout at 'whnf', maximum number of heartbeats (200000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433337
+	at /home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433631
+	at Immediate.<anonymous> (/home/Bergschaf/.vscode-oss/extensions/leanprover.lean4-0.0.121-universal/dist/extension.js:2:433993)
+	at process.processImmediate (node:internal/timers:476:21)

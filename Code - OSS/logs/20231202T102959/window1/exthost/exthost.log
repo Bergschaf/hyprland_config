@@ -1,0 +1,46 @@
+2023-12-02 10:30:03.522 [info] Extension host with pid 7828 started
+2023-12-02 10:30:03.523 [info] Skipping acquiring lock for /home/Bergschaf/.config/Code - OSS/User/workspaceStorage/c37be2b6d3a947e46d1d68ce4f71ead9.
+2023-12-02 10:30:03.860 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-12-02 10:30:03.956 [info] ExtensionService#_doActivateExtension leanprover.lean4, startup: false, activationEvent: 'onLanguage:lean'
+2023-12-02 10:30:04.438 [info] Extension host terminating: renderer closed the MessagePort
+2023-12-02 10:30:04.447 [error] Canceled: Canceled
+	at Object.P [as $6] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:7673
+	at Array.forEach (<anonymous>)
+	at n.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:7611)
+	at h.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:8028)
+	at o.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:9817)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:6242)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-12-02 10:30:04.447 [info] Extension host with pid 7828 exiting with code 0
+2023-12-02 10:30:07.144 [info] Extension host with pid 7912 started
+2023-12-02 10:30:07.144 [info] Skipping acquiring lock for /home/Bergschaf/.config/Code - OSS/User/workspaceStorage/14c6fb21255061b708d50dab59b62f90.
+2023-12-02 10:30:07.189 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-12-02 10:30:07.330 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-12-02 10:30:07.349 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-12-02 10:30:07.545 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-12-02 10:30:07.710 [info] Eager extensions activated
+2023-12-02 10:30:07.772 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-12-02 10:30:07.782 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-12-02 10:30:07.881 [info] ExtensionService#_doActivateExtension bierner.color-info, startup: false, activationEvent: 'onStartupFinished'
+2023-12-02 10:30:07.916 [info] ExtensionService#_doActivateExtension leanprover.lean4, startup: false, activationEvent: 'onStartupFinished'
+2023-12-02 10:30:08.180 [info] ExtensionService#_doActivateExtension YuTengjing.vscode-colorize-plus, startup: false, activationEvent: 'onStartupFinished'
+2023-12-02 11:02:52.807 [info] Extension host terminating: renderer closed the MessagePort
+2023-12-02 11:02:52.811 [info] Extension host with pid 7912 exiting with code 0
+2023-12-02 11:02:55.212 [info] Extension host with pid 16551 started
+2023-12-02 11:02:55.212 [info] Skipping acquiring lock for /home/Bergschaf/.config/Code - OSS/User/workspaceStorage/c37be2b6d3a947e46d1d68ce4f71ead9.
+2023-12-02 11:02:55.236 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-12-02 11:02:55.277 [info] ExtensionService#_doActivateExtension leanprover.lean4, startup: false, activationEvent: 'onLanguage:lean'
+2023-12-02 11:02:55.743 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-12-02 11:02:55.758 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-12-02 11:02:55.874 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-12-02 11:02:56.033 [info] Eager extensions activated
+2023-12-02 11:02:56.328 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-12-02 11:02:56.358 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-12-02 11:02:56.415 [info] ExtensionService#_doActivateExtension bierner.color-info, startup: false, activationEvent: 'onStartupFinished'
+2023-12-02 11:02:56.431 [info] ExtensionService#_doActivateExtension YuTengjing.vscode-colorize-plus, startup: false, activationEvent: 'onStartupFinished'
+2023-12-02 11:02:56.474 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-12-02 11:09:54.421 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-12-02 11:09:54.510 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'

@@ -1,0 +1,13 @@
+2023-12-03 13:58:05.107 [info] Extension host with pid 7271 started
+2023-12-03 13:58:05.107 [info] Skipping acquiring lock for /home/Bergschaf/.config/Code - OSS/User/workspaceStorage/c37be2b6d3a947e46d1d68ce4f71ead9.
+2023-12-03 13:58:05.191 [info] ExtensionService#_doActivateExtension leanprover.lean4, startup: false, activationEvent: 'onLanguage:lean'
+2023-12-03 13:58:05.554 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-12-03 13:58:05.965 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-12-03 13:58:06.078 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-12-03 13:58:06.384 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-12-03 13:58:06.655 [info] Eager extensions activated
+2023-12-03 13:58:06.754 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-12-03 13:58:06.759 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-12-03 13:58:06.810 [info] ExtensionService#_doActivateExtension bierner.color-info, startup: false, activationEvent: 'onStartupFinished'
+2023-12-03 13:58:06.823 [info] ExtensionService#_doActivateExtension YuTengjing.vscode-colorize-plus, startup: false, activationEvent: 'onStartupFinished'
+2023-12-03 13:58:07.217 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'

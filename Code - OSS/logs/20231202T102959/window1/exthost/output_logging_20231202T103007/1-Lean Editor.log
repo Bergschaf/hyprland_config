@@ -1,0 +1,11 @@
+> lean +leanprover/lean4:stable --version
+info: syncing channel updates for 'stable'
+
+info: latest update on stable, lean version v4.3.0
+
+info: downloading component 'lean'
+
+info: installing component 'lean'
+
+Lean (version 4.3.0, commit 8e5cf6466061, Release)
+

@@ -1,0 +1,6 @@
+2023-12-02 10:29:59.381 [info] update#setState disabled
+2023-12-02 10:29:59.385 [info] update#ctor - updates are disabled as there is no update URL
+2023-12-02 10:30:04.452 [info] Extension host with pid 7828 exited with code: 0, signal: unknown.
+2023-12-02 10:30:05.454 [error] Extension host with pid 7828 still exists, forcefully killing it...
+2023-12-02 11:02:52.812 [info] Extension host with pid 7912 exited with code: 0, signal: unknown.
+2023-12-02 11:03:00.521 [error] CodeWindow: failed to load (reason: <unknown>, code: -3)

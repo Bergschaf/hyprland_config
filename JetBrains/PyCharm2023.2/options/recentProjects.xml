@@ -1,0 +1,40 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/AOC_2023">
+          <value>
+            <RecentProjectMetaInfo frameTitle="AOC_2023 – template/utils.py" opened="true" projectWorkspaceId="2YwSkW9nCeFGsmqAbcpn276vUWV">
+              <option name="activationTimestamp" value="1701873938031" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-232.10227.11" />
+              <option name="buildTimestamp" value="1699919024553" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="22" y="52" width="1876" height="1006" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1701435293211" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.config">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="2ZAnq1u7dqg6SAseuIeYR9KFLI8">
+              <option name="activationTimestamp" value="1701873992067" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-232.10227.11" />
+              <option name="buildTimestamp" value="1699919035321" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="8" />
+              </option>
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1701873938789" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/.config" />
+  </component>
+</application>

@@ -1,0 +1,4 @@
+2023-12-03 10:40:55.823 [info] update#setState disabled
+2023-12-03 10:40:55.827 [info] update#ctor - updates are disabled as there is no update URL
+2023-12-03 10:41:06.416 [error] CodeWindow: failed to load (reason: <unknown>, code: -3)
+2023-12-03 12:39:39.413 [info] Extension host with pid 1980 exited with code: 0, signal: unknown.

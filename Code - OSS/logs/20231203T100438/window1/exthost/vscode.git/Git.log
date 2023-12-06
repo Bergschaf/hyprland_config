@@ -1,0 +1,17 @@
+2023-12-03 10:04:41.736 [info] Log level: Info
+2023-12-03 10:04:41.736 [info] Validating found git in: "git"
+2023-12-03 10:04:41.736 [info] Using git "2.43.0" from "git"
+2023-12-03 10:04:41.736 [info] > git rev-parse --show-toplevel [14ms]
+2023-12-03 10:04:41.736 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2023-12-03 10:04:41.736 [info] Open repository: /home/Bergschaf/banach-tarski
+2023-12-03 10:04:41.736 [info] > git rev-parse --show-toplevel [10ms]
+2023-12-03 10:04:41.736 [info] > git config --get commit.template [16ms]
+2023-12-03 10:04:41.745 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-12-03 10:04:41.754 [info] > git status -z -uall [2ms]
+2023-12-03 10:04:41.773 [info] > git config --get commit.template [6ms]
+2023-12-03 10:04:41.774 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-03 10:04:41.782 [info] > git status -z -uall [2ms]
+2023-12-03 10:04:42.242 [info] > git check-ignore -v -z --stdin [1ms]
+2023-12-03 10:04:42.799 [info] > git show --textconv :FreeGroupTest.lean [7ms]
+2023-12-03 10:04:42.801 [info] > git ls-files --stage -- /home/Bergschaf/banach-tarski/FreeGroupTest.lean [2ms]
+2023-12-03 10:04:42.809 [info] > git cat-file -s 3625501d1e58cc89d84c77acdbf3f693d1cff49d [2ms]

@@ -1,0 +1,20 @@
+2023-12-02 13:43:27.202 [info] Log level: Info
+2023-12-02 13:43:27.202 [info] Validating found git in: "git"
+2023-12-02 13:43:27.224 [info] Using git "2.43.0" from "git"
+2023-12-02 13:43:27.246 [info] > git rev-parse --show-toplevel [3ms]
+2023-12-02 13:43:27.269 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2023-12-02 13:43:27.289 [info] Open repository: /home/Bergschaf/banach-tarski
+2023-12-02 13:43:27.315 [info] > git rev-parse --show-toplevel [11ms]
+2023-12-02 13:43:27.319 [info] > git config --get commit.template [19ms]
+2023-12-02 13:43:27.333 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-12-02 13:43:27.347 [info] > git status -z -uall [6ms]
+2023-12-02 13:43:27.372 [info] > git config --get commit.template [7ms]
+2023-12-02 13:43:27.373 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-12-02 13:43:27.382 [info] > git status -z -uall [3ms]
+2023-12-02 13:43:27.733 [info] > git show --textconv :Basic.lean [7ms]
+2023-12-02 13:43:27.734 [info] > git ls-files --stage -- /home/Bergschaf/banach-tarski/Basic.lean [2ms]
+2023-12-02 13:43:27.740 [info] > git cat-file -s ac93afd9671699de0b60378d513584bda4701075 [1ms]
+2023-12-02 13:43:28.057 [info] > git check-ignore -v -z --stdin [1ms]
+2023-12-02 13:46:49.353 [info] > git config --get commit.template [5ms]
+2023-12-02 13:46:49.354 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-12-02 13:46:49.365 [info] > git status -z -uall [3ms]

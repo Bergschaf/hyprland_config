@@ -1,0 +1,42 @@
+file:///home/Bergschaf/banach-tarski/FreeGroupTest.lean {"mtime":1701609018529,"ctime":1701524493220,"size":1388,"etag":"3bik5n04l1do","orphaned":false,"typeId":""}
+import Mathlib.Tactic
+import Mathlib.Data.Set.Basic
+import Mathlib.GroupTheory.FreeGroup.Basic
+import Mathlib.GroupTheory.FreeGroup.IsFreeGroup
+
+
+inductive Generators where
+  | a : Generators
+  | b : Generators
+  deriving DecidableEq
+open Generators
+--theorem: FreeGroup.toWord_one{α : Type u} [DecidableEq α] :
+--  FreeGroup.toWord 1 = []
+def e := {w: FreeGroup Generators | (FreeGroup.toWord w) = []}
+def s_a := {w : FreeGroup Generators  | (FreeGroup.toWord w).head? = .some (Generators.a, true)}
+def s_b := {w : FreeGroup Generators  | (FreeGroup.toWord w).head? = .some (Generators.b, true)}
+def s_a' := {w : FreeGroup Generators  | (FreeGroup.toWord w).head? = .some (Generators.a, false)}
+def s_b' := {w : FreeGroup Generators  | (FreeGroup.toWord w).head? = .some (Generators.b, false)}
+def f2 := e ∪ s_a ∪ s_b ∪ s_a' ∪ s_b'
+---def a'_s_a := {z : FreeGroup Generators | ∃ w ∈ s_a, z = FreeGroup.prod w}
+#check s_a
+#check e
+
+
+theorem about_s_a (z : FreeGroup Generators) : z ∈ s_a -> ((FreeGroup.toWord z).head? = .some (Generators.a, true)) := by
+  intro x
+  use x
+
+theorem s_a_about (z: FreeGroup Generators) : ((FreeGroup.toWord z).head? = .some (Generators.a, true)) -> z ∈ s_a := by
+  intro x
+  use x
+#check f2
+
+
+
+
+
+
+---theorem s_a_in_FreeGroup (s := s_a) (w : FreeGroup Generators) : (FreeGroup.toWord w).head? = (Generators.a, true) -> w ∈ s_a :=
+
+---  sorry

@@ -1,0 +1,24 @@
+/home/Bergschaf/banach-tarski> lean +leanprover/lean4:v4.2.0-rc4 --version
+Lean (version 4.2.0-rc4, commit 819b5eaceaa4, Release)
+
+/home/Bergschaf/banach-tarski> lean +leanprover/lean4:v4.2.0-rc4 --version
+Lean (version 4.2.0-rc4, commit 819b5eaceaa4, Release)
+
+[Error - 1:46:28 PM] Request textDocument/completion failed.
+  Message: (deterministic) timeout at 'whnf', maximum number of heartbeats (200000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+  Code: -32603 
+[Error - 1:46:49 PM] Request textDocument/completion failed.
+  Message: (deterministic) timeout at 'whnf', maximum number of heartbeats (200000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+  Code: -32603 
+[Error - 1:47:18 PM] Request textDocument/completion failed.
+  Message: (deterministic) timeout at 'whnf', maximum number of heartbeats (200000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+  Code: -32603 
+[Error - 1:47:20 PM] Request textDocument/completion failed.
+  Message: (deterministic) timeout at 'whnf', maximum number of heartbeats (200000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+  Code: -32603 
+[Error - 1:48:18 PM] Request textDocument/completion failed.
+  Message: (deterministic) timeout at 'whnf', maximum number of heartbeats (200000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+  Code: -32603 
+[Error - 1:53:47 PM] Request textDocument/completion failed.
+  Message: (deterministic) timeout at 'whnf', maximum number of heartbeats (200000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+  Code: -32603 
